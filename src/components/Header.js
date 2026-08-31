@@ -52,7 +52,7 @@ const Header = () => {
   }, []);
 
   return (
-    <div className="absolute w-full bg-gradient-to-b from-slate-900 flex justify-between items-center px-8 py-2">
+    <div className="absolute z-20 w-full bg-gradient-to-b from-slate-900 flex justify-between items-center px-8 py-2">
 
       {/* Netflix Logo */}
       <img

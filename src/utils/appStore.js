@@ -4,6 +4,7 @@
 
 import { configureStore } from "@reduxjs/toolkit";
 import userReducer from "./userSlice.js";
+import movieReducer from "./movieSlice.js";
 
 // Configure the Redux store and register the user reducer.
 const appStore = configureStore(
@@ -12,6 +13,9 @@ const appStore = configureStore(
 
             // User state is managed by userReducer.
             user: userReducer,
+
+            // Movie State is managed by movieReducer.
+            movies: movieReducer,
         }
     }
 )

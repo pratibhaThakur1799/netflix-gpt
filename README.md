@@ -20,6 +20,10 @@
 
 - BUG-FIX : without login user cannot access other route page like "/browse"
 - Unsubscribe to onAuthChangedState function
+- Main-Container design with Movie Title and Movie Trailer
+- API Fetch with dynamic values for movie
+- Created custom hooks for nowPlayingMovie (latest) and trailer
+- Embedded the Youtube Video into the Container
 
 # TODO : when logged in user hit "/" then also page is appearing for few sec so fix that
 
