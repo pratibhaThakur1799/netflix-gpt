@@ -1,4 +1,3 @@
-
 # Netflix-GPT
 
 - Create React App
@@ -6,19 +5,23 @@
 - Header
 - Login Form
 - Sign up Form
+- Routing
+- Form build for sign-in and sing-up
+- useRef()
+- firebase setup
+- firebase deploy
+- Implemented Sign-in / Signup API through "FIREBASE"
+- Created Redux Store : user-slice
+- Implemented Sign-out through firebase
+- Update the profile of user
+- BUG-FIX : user display name & profile pic is updated
 
+# Part - 2
 
+- BUG-FIX : without login user cannot access other route page like "/browse"
+- Unsubscribe to onAuthChangedState function
 
-
-
-
-
-
-
-
-
-
-
+# TODO : when logged in user hit "/" then also page is appearing for few sec so fix that
 
 # Getting Started with Create React App
 
