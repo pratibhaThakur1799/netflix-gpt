@@ -24,6 +24,11 @@
 - API Fetch with dynamic values for movie
 - Created custom hooks for nowPlayingMovie (latest) and trailer
 - Embedded the Youtube Video into the Container
+- Implemented Second Container - MovieList \* n (using MAP) with Movie Card
+- Dynamic Data fetch for every Movie List container
+- IMG CDN URL + dynamic is used
+- Overlaping of movie-list container
+- Custom Hooks for every movie-list
 
 # TODO : when logged in user hit "/" then also page is appearing for few sec so fix that
 

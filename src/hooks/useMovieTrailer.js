@@ -26,7 +26,7 @@ const useMovieTrailer = (movieID) => {
         const data = await movieData.json();
 
         // Debug log — remove before shipping to production.
-        console.log(data);
+        // console.log(data);
 
         // TMDB returns a mix of video types (Trailer, Teaser, Clip, etc.)
         // in data.results. Filter down to only the ones explicitly
@@ -45,7 +45,7 @@ const useMovieTrailer = (movieID) => {
         dispatch(addTrailerVideo(trailer));
 
         // Debug log — remove before shipping to production.
-        console.log(trailer);
+        // console.log(trailer);
     }
 
     // Re-runs getMovieData whenever this hook is called for a component

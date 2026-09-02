@@ -24,7 +24,7 @@ const MainContainer = () => {
     const { original_title, overview, id } = mainMovie;
 
     // Debug log — remove before shipping to production.
-    console.log(mainMovie);
+    // console.log(mainMovie);
 
     return (
         <div>

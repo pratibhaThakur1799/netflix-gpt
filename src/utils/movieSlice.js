@@ -14,6 +14,7 @@ const movieSlice = createSlice(
         // Both fields start as null so components can check for "not loaded yet".
         initialState: {
             nowPlayingMovies: null,  // will hold the array of movies from TMDB
+            popularMovies: null,     // will hold the array of popular movies from TMDB
             trailerVideo: null,      // will hold the selected trailer's video object
         },
 
@@ -35,6 +36,11 @@ const movieSlice = createSlice(
             // the trailer for a specific movie.
             addTrailerVideo: (state, action) => {
                 state.trailerVideo = action.payload;
+            },
+
+
+            addPopularMovies: (state, action) => {
+                state.popularMovies = action.payload;
             }
 
         }
@@ -42,7 +48,7 @@ const movieSlice = createSlice(
 );
 
 // Export the auto-generated action creators so components/hooks can dispatch them.
-export const { addNowPlayingMovies, addTrailerVideo } = movieSlice.actions;
+export const { addNowPlayingMovies, addTrailerVideo, addPopularMovies } = movieSlice.actions;
 
 // Export the reducer to be registered in appStore.js under the "movies" key.
 export default movieSlice.reducer;
