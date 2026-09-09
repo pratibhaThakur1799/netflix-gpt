@@ -30,6 +30,12 @@
 - Overlaping of movie-list container
 - Custom Hooks for every movie-list
 
+# Part - 3
+
+- GPT Search
+- GPT search Page visibility is handled
+- Localisation is done
+
 # TODO : when logged in user hit "/" then also page is appearing for few sec so fix that
 
 # Getting Started with Create React App
